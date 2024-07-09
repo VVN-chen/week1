@@ -87,6 +87,15 @@ img{
     margin-bottom: 16px;
 }
 
+a{
+color: #000000;
+ text-decoration: none;   
+    }
+
+a:hover{
+color:rgb(109, 108, 108);
+text-decoration: underline;;
+}
 /*  版頭 */
 header{
     padding-top: 160px;    
@@ -103,7 +112,7 @@ header{
 
 h1,h2{
     font-size: 128px;
-    letter-spacing: 12px;
+    letter-spacing: 0.12em;
 }
 
 /*  內文 */
