@@ -1,7 +1,6 @@
-* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain) */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -52,15 +51,12 @@ table {
 /* 基本設定 */
 
 *, *::before, *::after {
-    padding: 0;
-    margin: 0;
     box-sizing: border-box;
 }
 
 body{
     font-family: "Castoro", sans-serif;
     line-height: 1.5;
-    font-weight: 400;
 }
 
 img{
@@ -101,14 +97,22 @@ header{
     padding-top: 160px;    
 }
 
-.m-img{
+/* .m-img{
     margin: 0 320px;
-    }
+    } */
 
-
-.m-left{
-    margin-left:646px;
+header img{
+        display: block;
+        margin: 0 auto;
 }
+      
+header h2{
+text-align: right;
+}
+
+/* .m-left{
+    margin-left:646px;
+} */
 
 h1,h2{
     font-size: 128px;
@@ -119,7 +123,7 @@ h1,h2{
 
 .content{
 background-color: #EFEFEF;
-height: 432px;
+/* height: 432px; */
 margin-bottom: 80px;
 
 }
@@ -128,6 +132,7 @@ margin-bottom: 80px;
     width: 636px;
     font-size: 32px;
     padding: 48px 0;
+    margin-left: auto;
 }
 
 /* list*/
@@ -136,7 +141,7 @@ margin-bottom: 80px;
     padding-bottom: 40px;
 }
 
-.list p{
+.list h3{
     font-size: 40px;
     color: #AE0000;
     border-bottom: 3px solid;    
@@ -147,16 +152,16 @@ margin-bottom: 80px;
     font-size: 24px;   
 }
 
-.tt{
+.list .tt{
     font-size: 20px !important;   
     color: #949494;
+    font-style: italic;
 }   
 
 
 
-footer{
+.footer{
     background-color: #000000;
-    height: 192px;
     margin-top: 120px;
 }
 
